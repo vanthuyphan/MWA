@@ -1,11 +1,11 @@
 const dayType = {WEEKEND: "weekend", WEEKDAY: "weekday"}
 const dayMap = {
-    0: dayType.WEEKDAY,
+    0: dayType.WEEKEND,
     1: dayType.WEEKDAY,
     2: dayType.WEEKDAY,
     3: dayType.WEEKDAY,
     4: dayType.WEEKDAY,
-    5: dayType.WEEKEND,
+    5: dayType.WEEKDAY,
     6: dayType.WEEKEND
 }
 const isWeekend = () => {
