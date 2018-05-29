@@ -1,4 +1,4 @@
-const find = function(filename) {
+const find = (filename) => {
     return (tree) => {
         if (tree.files.indexOf(filename) > -1) {
             return true;
