@@ -1,4 +1,4 @@
-Array.prototype.isDual = function(){
+Array.prototype.isDual = () => {
     if (this.length == 0) return 1
     const hasEvenNumberOfElements = (this.length % 2) == 0;
     if (!hasEvenNumberOfElements) {
